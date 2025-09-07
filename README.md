@@ -63,6 +63,9 @@ npm run build
 - Configured sticky footer layout
 - Placeholder assets for banner image and logos
 
+### v1.0.1 — Nav Updates
+- Update font size and spacing for nav on mobile
+
 ---
 
 ## 📄 License
