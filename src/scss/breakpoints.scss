@@ -1,0 +1,23 @@
+@use 'variables' as v;
+
+h1 { font-size: 2rem; }
+h2 { font-size: 1.75rem; }
+h3 { font-size: 1.5rem; }
+h4 { font-size: 1.25rem; }
+p  { font-size: 1rem; }
+
+@media (min-width: v.$bp-tablet) {
+  h1 { font-size: 2.5rem; }
+  h2 { font-size: 2rem; }
+  h3 { font-size: 1.75rem; }
+  h4 { font-size: 1.5rem; }
+  p  { font-size: 1.125rem; }
+}
+
+@media (min-width: v.$bp-desktop) {
+  h1 { font-size: 3rem; }
+  h2 { font-size: 2.25rem; }
+  h3 { font-size: 2rem; }
+  h4 { font-size: 1.75rem; }
+  p  { font-size: 1.125rem; }
+}

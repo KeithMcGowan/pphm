@@ -1,0 +1,26 @@
+@use '../variables' as v;
+
+#mission {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    width: 100%;
+
+    img {
+        width: 100%;
+        max-height: 500px;
+        object-fit: cover;
+        border-radius: 8px;
+        margin-bottom: 40px;
+    }
+
+    .content-text {
+        max-width: 800px;
+    }
+
+    @media (min-width: v.$bp-tablet) {
+        img {
+            width: 70%;
+        }
+    }
+}

@@ -1,0 +1,61 @@
+@use '../variables' as v;
+
+#services {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+
+    .half-and-half-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column nowrap;
+        // margin-bottom: 40px;
+
+        .content-image {
+            // max-width: 45%;
+            max-height: 500px;
+            overflow: hidden;
+            border-radius: 8px;
+            margin-bottom: 40px;
+
+            img {
+                width: 100%;
+                border-radius: 8px;
+            }
+        }
+
+        .content-text {
+            text-align: left;
+            padding-left: 30px;
+            
+            ul {
+                list-style-type: none;
+                padding: 0;
+                margin: 0;
+
+                li {
+                    margin-bottom: 15px;
+                }
+            }
+        }
+    }
+
+    .text-section {
+        padding: 20px 0;
+        max-width: 800px;
+        margin-bottom: 20px;
+    }
+
+    @media (min-width: v.$bp-tablet) {
+        .half-and-half-content {
+            flex-flow: row nowrap;
+            margin-bottom: 40px;
+
+            .content-image {
+                max-width: 45%;
+                margin-bottom: 0;
+            }
+        }
+    }
+}

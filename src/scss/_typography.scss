@@ -1,0 +1,14 @@
+@use 'variables' as v;
+
+h1, h2, h3, h4 {
+  font-family: v.$font-heading;
+  line-height: 1.2;
+  margin-bottom: v.$spacing-unit;
+}
+
+p, span, a {
+  font-family: v.$font-body;
+  line-height: 1.6;
+  color: v.$text-color;
+  margin-bottom: v.$spacing-unit;
+}
