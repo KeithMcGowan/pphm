@@ -1,0 +1,11 @@
+@use 'variables' as v;
+
+.text {
+  &--default {
+    color: v.$text-color;
+  }
+
+  &--light {
+    color: v.$white-color;
+  }
+}
