@@ -1,6 +1,6 @@
 {
   "name": "pphm",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Landing page for Pension Pour Handicapés Mentaux.",
   "main": "index.js",
   "scripts": {

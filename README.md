@@ -66,6 +66,9 @@ npm run build
 ### v1.0.1 — Nav Updates
 - Update font size and spacing for nav on mobile
 
+### v1.0.2 — Nav Updates
+- Update logo with temporary image
+
 ---
 
 ## 📄 License
