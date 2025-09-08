@@ -8,20 +8,26 @@
     padding: v.$spacing-unit v.$spacing-unit v.$spacing-unit * 2;
 
     .logo {
+        width: 100px;
+        height: auto;
+        background-color: #e1e1d7;
+        border-radius: 50%;
+        overflow: hidden;
+
         img {
-            width: 100px;
-            height: auto;
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            object-fit: cover;
+            object-position: -1px -1px;
         }
     }
 
     .footer-content {
         display: flex;
         width: 100%;
-        // flex-flow: row nowrap;
         flex-flow: column nowrap;
-        // justify-content: space-between;
         justify-content: center;
-        // align-items: flex-end;
         align-items: center;
         text-align: center;
 
